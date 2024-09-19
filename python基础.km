@@ -1,0 +1,143 @@
+{
+    "root": {
+        "data": {
+            "id": "d4aa1f6gumw0",
+            "created": 1726750705782,
+            "text": "python基础第一帐"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4aa2tu3km80",
+                    "created": 1726750816050,
+                    "text": "python基础运算符",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4aa1zjrjjc0",
+                            "created": 1726750750122,
+                            "text": "/"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4aa3n6jjxc0",
+                                    "created": 1726750879929,
+                                    "text": "除法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4aa1sj2a3k0",
+                            "created": 1726750734842,
+                            "text": "%"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4aa3tmd4n40",
+                                    "created": 1726750893946,
+                                    "text": "取模/取余数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4aa1ucf3hs0",
+                            "created": 1726750738794,
+                            "text": "//"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4aa40te3qg0",
+                                    "created": 1726750909609,
+                                    "text": "整数/商数取整"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4aa24z6fl40",
+                            "created": 1726750761938,
+                            "text": "*"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4aa4cksnkg0",
+                                    "created": 1726750935210,
+                                    "text": "乘法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4aa20f9ej40",
+                            "created": 1726750752026,
+                            "text": "**"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4aa4hc9gio0",
+                                    "created": 1726750945578,
+                                    "text": "指数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4aa3gxwfo00",
+                            "created": 1726750866346,
+                            "text": "-"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4aa4qxy9mw0",
+                                    "created": 1726750966481,
+                                    "text": "减法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4aa3k66u480",
+                            "created": 1726750873377,
+                            "text": "+"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4aa4v6w2ko0",
+                                    "created": 1726750975729,
+                                    "text": "加法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
