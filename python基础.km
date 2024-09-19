@@ -12,7 +12,11 @@
                     "created": 1726750816050,
                     "text": "python基础运算符",
                     "expandState": "expand",
-                    "note": "**操作符首先求值\n其次是*,/,// 和%从左到右；\n+和-号操作符最后求值，从左到右\n也可以通过括号来改变通常的优先级"
+                    "note": "**操作符首先求值\n其次是*,/,// 和%从左到右；\n+和-号操作符最后求值，从左到右\n也可以通过括号来改变通常的优先级",
+                    "layout_mind_offset": {
+                        "x": 49.99999652306224,
+                        "y": 760.3332830336386
+                    }
                 },
                 "children": [
                     {
@@ -133,6 +137,285 @@
                                     "text": "加法",
                                     "hyperlink": "",
                                     "hyperlinkTitle": ""
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4ab0onch080",
+                    "created": 1726753469139,
+                    "text": "python中常见的数据类型",
+                    "layout_mind_offset": {
+                        "x": -9.99997471769791,
+                        "y": -703.7499874892337
+                    },
+                    "note": "复数以及整数都属于int类型           例：`-20或者30`、\n当浮点数转换为int类型时结果为小数点前面数字\n浮点数只要有小数点都为浮点数      例：`42.0`\n字符串为使用单引号或者双引号扩充代表字符串的开始及结束\n`'hello word' 或 \"hello word\"`\n证书值可以与浮点数相匹配，匹配为true列：                           0022.000==22该为true          42==\"42\"该为flse             42==42.0该为true"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4ab1ejaac00",
+                            "created": 1726753525490,
+                            "text": "float()/浮点数"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4ab4js4tz40",
+                                    "created": 1726753772002,
+                                    "text": "0.1，0.2"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4ab1yymsjk0",
+                            "created": 1726753569954,
+                            "text": "int()/整数"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4ab4r0sfwg0",
+                                    "created": 1726753787762,
+                                    "text": "1，2"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4ab20zxtwg0",
+                            "created": 1726753574386,
+                            "text": "str()/字符串"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4ab4ul95y80",
+                                    "created": 1726753795530,
+                                    "text": "'张三'，\"王五\""
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4abc3vrio00",
+                    "created": 1726754364306,
+                    "text": "python中字符串连接和复制",
+                    "layout_mind_offset": {
+                        "x": -90.33331501153032,
+                        "y": -45.33332986301832
+                    },
+                    "note": "+号为字符串连接操作符，不能用于字符串和其他类型操作符连接\n列:`'ac'+1`\n*号为字符串复制操作符只能添加int类型，不能用于字符串和字符串复制，以及浮点数\n列：`'ac' * 'aaa'`\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4abcxs2qns0",
+                            "created": 1726754429386,
+                            "text": "+/字符串拼接",
+                            "layout_right_offset": {
+                                "x": 55.999998331070174,
+                                "y": -61.99999815225607
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4abd3vto7k0",
+                                    "created": 1726754442674,
+                                    "text": "\"abc\"+\"bbb\"",
+                                    "layout_right_offset": {
+                                        "x": 16.999999493360633,
+                                        "y": -1.9999999403952984
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4abdefxoio0",
+                            "created": 1726754465658,
+                            "text": "*/字符串复制操作符",
+                            "layout_right_offset": {
+                                "x": 33.99999898672104,
+                                "y": -21.999999344348907
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4abh24u4eg0",
+                                    "created": 1726754752322,
+                                    "text": "\"abc\" * 3"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4abm36bfpc0",
+                    "created": 1726755146409,
+                    "text": "python中变量的用法",
+                    "layout_mind_offset": {
+                        "x": 938.99997201562,
+                        "y": -89.99999731779104
+                    },
+                    "note": "python中的变量是存储在内存中的，当程序使用一个表达式结果时，就可以将其存储在变量中\n当python使用一个变量后。后者调用该变量。变量会被重新赋值，称为覆写\n变量用法只能时一个词，不带空格，只能包含字母，数字和下划线。不能以数字开头\n变量区分大小写\n定义变量的时候可以采用\"驼峰命名\"规则\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4abm7silhc0",
+                            "created": 1726755156458,
+                            "text": "赋值操作符",
+                            "layout_right_offset": {
+                                "x": 57.999998271465415,
+                                "y": -12.999999612569809
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4abmmovgy00",
+                                    "created": 1726755188890,
+                                    "text": "spam=40"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4abr1qodkg0",
+                            "created": 1726755535107,
+                            "text": "变量命名规则"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4abr6sjxe00",
+                                    "created": 1726755546105,
+                                    "text": "不允许短横线"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4abr8ztoio0",
+                                    "created": 1726755550898,
+                                    "text": "不允许变量中有空格"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4abr9snbvs0",
+                                    "created": 1726755552641,
+                                    "text": "不允许数字开头"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4abrar26z40",
+                                    "created": 1726755554721,
+                                    "text": "不允许',@,$特殊字符"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4acaksxqps0",
+                    "created": 1726757065522,
+                    "text": "函数",
+                    "note": "print函数不输出引号，它表示字符串的起止\ninput函数对应用户键盘输入的文字\nlen函数计算字符串中字符的个数"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4acashl3u00",
+                            "created": 1726757082250,
+                            "text": "print()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4acasom1000",
+                                    "created": 1726757082675,
+                                    "text": "输出字符串到cmd"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4acau77y1s0",
+                            "created": 1726757085977,
+                            "text": "len()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4acaubceow0",
+                                    "created": 1726757086226,
+                                    "text": "计算字符串长度，空则为0,返回元组个数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4acav8oc540",
+                            "created": 1726757088241,
+                            "text": "input()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4acavb7bb40",
+                                    "created": 1726757088394,
+                                    "text": "记录用户在cmd窗口输入值"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4acx1bb0p40",
+                            "created": 1726758825473,
+                            "text": "round()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4acx47txzc0",
+                                    "created": 1726758831793,
+                                    "text": "四舍六入五留双/可以对多个数字舍入/可以对负数进行舍入"
                                 },
                                 "children": []
                             }
