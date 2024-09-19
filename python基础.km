@@ -3,7 +3,7 @@
         "data": {
             "id": "d4aa1f6gumw0",
             "created": 1726750705782,
-            "text": "python基础第一帐"
+            "text": "python基础第一章"
         },
         "children": [
             {
@@ -11,7 +11,8 @@
                     "id": "d4aa2tu3km80",
                     "created": 1726750816050,
                     "text": "python基础运算符",
-                    "expandState": "expand"
+                    "expandState": "expand",
+                    "note": "**操作符首先求值\n其次是*,/,// 和%从左到右；\n+和-号操作符最后求值，从左到右\n也可以通过括号来改变通常的优先级"
                 },
                 "children": [
                     {
@@ -110,7 +111,9 @@
                                 "data": {
                                     "id": "d4aa4qxy9mw0",
                                     "created": 1726750966481,
-                                    "text": "减法"
+                                    "text": "减法",
+                                    "priority": null,
+                                    "progress": null
                                 },
                                 "children": []
                             }
@@ -127,7 +130,9 @@
                                 "data": {
                                     "id": "d4aa4v6w2ko0",
                                     "created": 1726750975729,
-                                    "text": "加法"
+                                    "text": "加法",
+                                    "hyperlink": "",
+                                    "hyperlinkTitle": ""
                                 },
                                 "children": []
                             }
