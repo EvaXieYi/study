@@ -5,9 +5,171 @@
             "created": 1726844111663,
             "text": "python第二章控制流"
         },
-        "children": []
+        "children": [
+            {
+                "data": {
+                    "id": "d4b7x79zjrk0",
+                    "created": 1726846292861,
+                    "text": "布尔值",
+                    "note": "布尔值只有两种类型 True 和False\n1==1 为True\n1!=1 为False\n布尔值可以用在表达式中，并且可以保存在变量中，如果大小写不正确或者使用布尔值当作环境变量，pthon会报错",
+                    "layout_mind_offset": {
+                        "x": -15.999998480081786,
+                        "y": 119.24999575689458
+                    },
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4b7x9v2okg0",
+                            "created": 1726846298489,
+                            "text": "True",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4b7xar3wgo0",
+                            "created": 1726846300426,
+                            "text": "False",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4b80xe6slc0",
+                    "created": 1726846584804,
+                    "text": "比较操作符/关系操作符",
+                    "layout_mind_offset": {
+                        "x": 795.7499730251737,
+                        "y": -330.750002425164
+                    },
+                    "layout": null,
+                    "note": "关系操作符用于比较两个值，求值为一个布尔值。\n关系操作符的求值结果为 True和False\n关系操作符可用于比较所有数据类型的值\n整数和浮点数永远不能和字符串类型相比，但是整数可以和浮点数相比较\n字符串类型区分大小写"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4b8130g7g80",
+                            "created": 1726846597034,
+                            "text": "==",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4b81w0q2g00",
+                                    "created": 1726846660177,
+                                    "text": "等于",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4b813mot3c0",
+                            "created": 1726846598378,
+                            "text": "!=",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4b81z646ko0",
+                                    "created": 1726846667033,
+                                    "text": "不等于",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4b8148il680",
+                            "created": 1726846599698,
+                            "text": "<",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4b822j6hsg0",
+                                    "created": 1726846674353,
+                                    "text": "小于",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4b815ion1s0",
+                            "created": 1726846602490,
+                            "text": ">",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4b824p3jk80",
+                                    "created": 1726846679065,
+                                    "text": "大于",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4b816bnjvk0",
+                            "created": 1726846604241,
+                            "text": "<=",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4b826jsfgw0",
+                                    "created": 1726846683097,
+                                    "text": "小于等于",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4b81nj3gls0",
+                            "created": 1726846641697,
+                            "text": ">=",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4b830erc7s0",
+                                    "created": 1726846748097,
+                                    "text": "大于等于"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     "template": "default",
-    "theme": "fresh-blue",
+    "theme": "classic",
     "version": "1.4.43"
 }
