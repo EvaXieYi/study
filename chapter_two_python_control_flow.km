@@ -13,8 +13,8 @@
                     "text": "布尔值",
                     "note": "布尔值只有两种类型 True 和False\n1==1 为True\n1!=1 为False\n布尔值可以用在表达式中，并且可以保存在变量中，如果大小写不正确或者使用布尔值当作环境变量，pthon会报错",
                     "layout_mind_offset": {
-                        "x": -15.999998480081786,
-                        "y": 119.24999575689458
+                        "x": 99.99999806284882,
+                        "y": 205.2499931938949
                     },
                     "layout": null
                 },
@@ -45,8 +45,8 @@
                     "created": 1726846584804,
                     "text": "比较操作符/关系操作符",
                     "layout_mind_offset": {
-                        "x": 795.7499730251737,
-                        "y": -330.750002425164
+                        "x": 47.000018373130274,
+                        "y": -317.75000214204186
                     },
                     "layout": null,
                     "note": "关系操作符用于比较两个值，求值为一个布尔值。\n关系操作符的求值结果为 True和False\n关系操作符可用于比较所有数据类型的值\n整数和浮点数永远不能和字符串类型相比，但是整数可以和浮点数相比较\n字符串类型区分大小写"
@@ -95,7 +95,8 @@
                             "id": "d4b8148il680",
                             "created": 1726846599698,
                             "text": "<",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -162,6 +163,861 @@
                                     "text": "大于等于"
                                 },
                                 "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4bvcls58dc0",
+                    "created": 1726912385424,
+                    "text": "二元布尔操作符",
+                    "layout_mind_offset": {
+                        "x": 17.249989036471675,
+                        "y": 1.7499960176645573
+                    },
+                    "note": "and操作符，在判断两边都为true时则结果为true，反之为false\nor操作符，在两边有一边为true时判断为true，如果两边都为false则为false"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4bvcrys0s80",
+                            "created": 1726912398886,
+                            "text": "and"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bvdc2vsgw0",
+                                    "created": 1726912442670,
+                                    "text": "两边相等为True"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4bvcvcn5e00",
+                            "created": 1726912406254,
+                            "text": "or"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bvdhj89gg0",
+                                    "created": 1726912454542,
+                                    "text": "两边有一边相等为false"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4bvewu2omw0",
+                    "created": 1726912566214,
+                    "text": "取反操作符/一元操作符",
+                    "layout_mind_offset": {
+                        "x": -36.24999837949872,
+                        "y": 126.50001374632072
+                    },
+                    "note": "取反操作符not，用于比如条件为true取反则为false\n当条件为not 空时，条件为true"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4bvf2uy1e80",
+                            "created": 1726912579327,
+                            "text": "not"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4c0gcdgyyw0",
+                                    "created": 1726926783952,
+                                    "text": "not ''"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4c0gf85bgg0",
+                                    "created": 1726926790160,
+                                    "text": "not 'False'"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4c0gjky3nk0",
+                                    "created": 1726926799641,
+                                    "text": "not 'True'"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4bvny6kb4w0",
+                    "created": 1726913274423,
+                    "text": "代码块",
+                    "layout_mind_offset": {
+                        "x": -45.99999862909317,
+                        "y": -129.9999961256982
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4bvo74zx4g0",
+                            "created": 1726913293919,
+                            "text": "缩进增加时代码块开始"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4bvogq6f1k0",
+                            "created": 1726913314791,
+                            "text": "代码块可以包含其他代码块"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4bvomuzojs0",
+                            "created": 1726913328143,
+                            "text": "缩进减少为零，或与外面包围代码块对齐，代码块就结束了"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4bw1hjz5hs0",
+                    "created": 1726914335327,
+                    "text": "控制流判断语句",
+                    "note": "所有的控制流语句都是以冒号结尾，后面跟着该控制流的子句也成为代码块\nelse语句为if的另外一段。当if执行条件为false时才会执行else中的子句。\nelif执行是在有多个判断布尔类型值时使用该判断类型，多加判断条件\n控制判断流语句执行顺序为             if > elif > else\n在多个判断条件时次序是非常重要的\n",
+                    "layout_mind_offset": {
+                        "x": 63.99999809265137,
+                        "y": 9.999999701976776
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4bw1llibh40",
+                            "created": 1726914344127,
+                            "text": "if"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bw1neqrg80",
+                                    "created": 1726914348071,
+                                    "text": "判断结果集，如果结果为True将执行内部代码。"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4bw2n310400",
+                                            "created": 1726914425727,
+                                            "text": "包含"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4bw2rv0pqw0",
+                                                    "created": 1726914436127,
+                                                    "text": "if关键字"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bw2vyabwo0",
+                                                    "created": 1726914445031,
+                                                    "text": "条件表达式，结果是否为True"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bw33n77vk0",
+                                                    "created": 1726914461775,
+                                                    "text": "冒号"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bw375o60o0",
+                                                    "created": 1726914469423,
+                                                    "text": "if子句"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4bw6f2q3fk0",
+                            "created": 1726914721751,
+                            "text": "else",
+                            "layout_left_offset": {
+                                "x": 3.9999998807907104,
+                                "y": 9.999999701976776
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bw6j3gtbs0",
+                                    "created": 1726914730503,
+                                    "text": "当if判断条件为false时else的子句才会执行",
+                                    "layout_left_offset": {
+                                        "x": -61.99999815225601,
+                                        "y": 5.999999821186179
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4bw83nry600",
+                                            "created": 1726914853631,
+                                            "text": "包含",
+                                            "layout_left_offset": {
+                                                "x": -71.99999785423279,
+                                                "y": -1.9999999403953552
+                                            },
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4bw7zr4oxk0",
+                                                    "created": 1726914845127,
+                                                    "text": "else关键字"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bw7ys82vk0",
+                                                    "created": 1726914843016,
+                                                    "text": "冒号"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bw808bkjk0",
+                                                    "created": 1726914846166,
+                                                    "text": "else子句"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4bw9hlsy1c0",
+                            "created": 1726914962351,
+                            "text": "elif",
+                            "layout_left_offset": {
+                                "x": 0,
+                                "y": 69.99999791383743
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bw9likr000",
+                                    "created": 1726914970863,
+                                    "text": "当需要多个判断条件时，许多子句需要有一个判断结果为真",
+                                    "layout_left_offset": {
+                                        "x": 1.9999999403953552,
+                                        "y": 13.9999995827676
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4bwduvorvk0",
+                                            "created": 1726915304703,
+                                            "text": "包含"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4bwdycorp40",
+                                                    "created": 1726915312262,
+                                                    "text": "elif关键字"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bwdz4lzag0",
+                                                    "created": 1726915313950,
+                                                    "text": "真假条件"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bwdzwsu600",
+                                                    "created": 1726915315654,
+                                                    "text": "冒号",
+                                                    "layout_left_offset": {
+                                                        "x": -19.99999940395344,
+                                                        "y": -1.9999999403953552
+                                                    }
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bwed0zms00",
+                                                    "created": 1726915344206,
+                                                    "text": "elif子句"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4bwvd743s00",
+                    "created": 1726916676767,
+                    "text": "流程执行语句",
+                    "layout_mind_offset": {
+                        "x": -37.99999886751175,
+                        "y": 155.99999535083793
+                    },
+                    "note": "while语句当条件为真时会一直执行\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4bwvibsy940",
+                            "created": 1726916687935,
+                            "text": "while",
+                            "layout_left_offset": {
+                                "x": -37.999998867511636,
+                                "y": -13.9999995827676
+                            },
+                            "note": "def num(i):\n    print(i)\n    return i+1\n\ni=0\nwhile i<5:\n    i=num(i)\n在while循环中条件总是在每次迭代开始时检查(在每次循环开始时)，当while循环条件为false时则跳过当前循环\n"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bwwgc6rig0",
+                                    "created": 1726916761968,
+                                    "text": "当条件为真时执行代码块,不适用break跳出会是死循环"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4bwydscgrk0",
+                                            "created": 1726916913143,
+                                            "text": "包含"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4bwyn6o1zc0",
+                                                    "created": 1726916933600,
+                                                    "text": "while关键字"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bwz5qi2080",
+                                                    "created": 1726916973982,
+                                                    "text": "条件/求值布尔值"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bwz69k1yw0",
+                                                    "created": 1726916975134,
+                                                    "text": "冒号"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bwzlexxeo0",
+                                                    "created": 1726917008111,
+                                                    "text": "while子句/while循环"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4bwvnywn4g0",
+                            "created": 1726916700215,
+                            "text": "for",
+                            "layout_left_offset": {
+                                "x": -157.99999529123318,
+                                "y": 107.99999678134918
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bz5k8rzbc0",
+                                    "created": 1726923117967,
+                                    "text": "for循环中range函数",
+                                    "layout_left_offset": {
+                                        "x": -19.999999403953552,
+                                        "y": -79.99999761581432
+                                    },
+                                    "note": "range函数填写规则\nrange(起始值,终止值,输出间隔几个)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4c0fvbu9iw0",
+                                            "created": 1726926746848,
+                                            "text": "range(5)/输出0,1,2,3,4,5"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4c0njftb340",
+                                                    "created": 1726927347880,
+                                                    "text": "开始/停止"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d4c0nwslc940",
+                                                            "created": 1726927376951,
+                                                            "text": "range(1,5)"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4c0nnu19lk0",
+                                                    "created": 1726927357447,
+                                                    "text": "步长"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d4c0o1vud1s0",
+                                                            "created": 1726927388031,
+                                                            "text": "range(1,10,2)"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4c0tup1ta80",
+                                                    "created": 1726927842568,
+                                                    "text": "负数作为步长"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d4c0umr73qw0",
+                                                            "created": 1726927903648,
+                                                            "text": "range(1,-10,-1)"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d4c0us2i5s00",
+                                                                    "created": 1726927915216,
+                                                                    "text": "1-负10，每次减1"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d4bz7mcumg00",
+                                    "created": 1726923279295,
+                                    "text": "让代码块执行固定次数不需要提前定义变量"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4bz84e32400",
+                                            "created": 1726923318551,
+                                            "text": "包含"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4bz86zvsew0",
+                                                    "created": 1726923324223,
+                                                    "text": "for关键词"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bz87waiag0",
+                                                    "created": 1726923326183,
+                                                    "text": "一个变量名"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bz88i9gz40",
+                                                    "created": 1726923327511,
+                                                    "text": "in关键字"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bz89kr7w80",
+                                                    "created": 1726923329839,
+                                                    "text": "调用range函数最多传入3个参数"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bz8sbdrso0",
+                                                    "created": 1726923370631,
+                                                    "text": "冒号"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4bz8v747xc0",
+                                                    "created": 1726923376903,
+                                                    "text": "for子句"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4bxrwd4mfk0",
+                            "created": 1726919226143,
+                            "text": "流程语句中继续和退出",
+                            "layout_left_offset": {
+                                "x": -63.999998092651595,
+                                "y": 259.9999922513964
+                            },
+                            "note": "break和contiune只能在循环中使用其他地方使用将会报错"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4bxs6qmw3k0",
+                                    "created": 1726919248727,
+                                    "text": "break",
+                                    "layout_left_offset": {
+                                        "x": -75.99999773502361,
+                                        "y": -23.999999284744263
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4bxsh4wydk0",
+                                            "created": 1726919271359,
+                                            "text": "退出"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d4bxs98bvbc0",
+                                    "created": 1726919254151,
+                                    "text": "continue",
+                                    "layout_left_offset": {
+                                        "x": -53.999998390674705,
+                                        "y": 7.999999761581648
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4bxsjk48v40",
+                                            "created": 1726919276631,
+                                            "text": "继续"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4c0vbor8tk0",
+                    "created": 1726927957920,
+                    "text": "导入模块",
+                    "layout_mind_offset": {
+                        "x": 377.66663130455674,
+                        "y": -24.666669640275813
+                    },
+                    "note": "正常调用print以及len等函数称之为内置函数，python也包含一组模块标准库\n\n在定义脚本名称时，不要将脚本名称写成函数名称或者内置函数\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4c0ylu49l40",
+                            "created": 1726928215104,
+                            "text": "import",
+                            "layout_right_offset": {
+                                "x": 286.9999914467337,
+                                "y": -2.9999999105928055
+                            },
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4c1aksrpqo0",
+                                    "created": 1726929153216,
+                                    "text": "random",
+                                    "layout_right_offset": {
+                                        "x": 279.99999165534973,
+                                        "y": 108.99999675154697
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4c1b2haheo0",
+                                            "created": 1726929191704,
+                                            "text": "randint()方法",
+                                            "layout_right_offset": {
+                                                "x": 319.99999046325706,
+                                                "y": 10.999999672174454
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4c1pbpuq8o0",
+                                                    "created": 1726930308911,
+                                                    "text": "randint(1,10)",
+                                                    "layout_right_offset": {
+                                                        "x": 331.9999901056293,
+                                                        "y": 0.9999999701976776
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d4c1rxe2arc0",
+                                                            "created": 1726930512816,
+                                                            "text": "随机1-10",
+                                                            "layout_right_offset": {
+                                                                "x": 244.99999269843124,
+                                                                "y": -5.999999821186066
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d4c1gcsyzy00",
+                                    "created": 1726929605999,
+                                    "text": "import 包名",
+                                    "layout_right_offset": {
+                                        "x": 328.9999901950363,
+                                        "y": -180.99999460577976
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4c13n3y6m80",
+                                            "created": 1726928609696,
+                                            "text": "包含写法",
+                                            "layout_right_offset": {
+                                                "x": 424.9999873340133,
+                                                "y": 46.99999859929096
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4c13wakrew0",
+                                                    "created": 1726928629688,
+                                                    "text": "import关键字",
+                                                    "layout_right_offset": {
+                                                        "x": 292.99999126791954,
+                                                        "y": -21.999999344348907
+                                                    }
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4c145c28f40",
+                                                    "created": 1726928649369,
+                                                    "text": "模块名称",
+                                                    "layout_right_offset": {
+                                                        "x": 281.9999915957453,
+                                                        "y": 1.9999999403952415
+                                                    }
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4c146intnk0",
+                                                    "created": 1726928651945,
+                                                    "text": "可选的更多模块名称，之间用逗号隔开",
+                                                    "layout_right_offset": {
+                                                        "x": 391.99998831748974,
+                                                        "y": 9.999999701976662
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d4c1oz6y6lc0",
+                                    "created": 1726930281647,
+                                    "text": "sys",
+                                    "layout_right_offset": {
+                                        "x": 260.999992221594,
+                                        "y": 54.99999836087238
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4c1pj4gy8o0",
+                                            "created": 1726930325032,
+                                            "text": "exit()方法",
+                                            "layout_right_offset": {
+                                                "x": 285.99999147653614,
+                                                "y": 3.9999998807907104
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4c1rmcvxb40",
+                                                    "created": 1726930488800,
+                                                    "text": "终止当前py脚本",
+                                                    "layout_right_offset": {
+                                                        "x": 309.9999907612804,
+                                                        "y": 14.999999552965164
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4c0yphha9s0",
+                            "created": 1726928223047,
+                            "text": "from",
+                            "layout_right_offset": {
+                                "x": 274.99999180436157,
+                                "y": 189.99999433755863
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4c1g1py5lk0",
+                                    "created": 1726929581872,
+                                    "text": "from 包名  import 模块",
+                                    "layout_right_offset": {
+                                        "x": 347.9999896287921,
+                                        "y": -1.9999999403953552
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4c1kprrrc80",
+                                            "created": 1726929947681,
+                                            "text": "from random import * /导入random所有模块 ",
+                                            "layout_right_offset": {
+                                                "x": 601.9999820590025,
+                                                "y": -2.999999910593033
+                                            },
+                                            "note": "使用此形式不需要前缀调用，但是代码可读性不高。最好使用import"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
