@@ -366,7 +366,29 @@
                                     "created": 1726757082675,
                                     "text": "输出字符串到cmd"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4cv5eqatpc0",
+                                            "created": 1727013381482,
+                                            "text": "操作字符%s调用变量",
+                                            "layout_left_offset": {
+                                                "x": -93.99999719858192,
+                                                "y": -31.999999046325684
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4cv5u88aeo0",
+                                                    "created": 1727013415218,
+                                                    "text": "print('%s name' % (name))"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -417,7 +439,74 @@
                                     "created": 1726758831793,
                                     "text": "四舍六入五留双/可以对多个数字舍入/可以对负数进行舍入"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4cw21hp1080",
+                                            "created": 1727015938681,
+                                            "text": "round(11.5) 结果12"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4cw292mztk0",
+                                            "created": 1727015955185,
+                                            "text": "round(12.5)结果12"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4cw2f60nq80",
+                                            "created": 1727015968450,
+                                            "text": "round(12.7)结果13"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4cw2vgnf8o0",
+                            "created": 1727016003922,
+                            "text": "abs()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4cwbif9xs00",
+                                    "created": 1727016680818,
+                                    "text": "返回负数的正数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4cwbq8kcqg0",
+                                            "created": 1727016697826,
+                                            "text": "abs(-1)结果1"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4cwd2fqo9k0",
+                                            "created": 1727016802746,
+                                            "text": "abs(3+4j)结果为5.0"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4cwd6jnids0",
+                                            "created": 1727016811689,
+                                            "text": "abs(-2-3j) 结果为3.605551275463989"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -426,6 +515,6 @@
         ]
     },
     "template": "default",
-    "theme": "fresh-blue",
+    "theme": "classic",
     "version": "1.4.43"
 }

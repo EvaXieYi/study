@@ -8,4 +8,3 @@ elif age> 2000:
     print('Unlike you ,alice is not undead,immortal vampire.')
 elif age < 100:
     print('')
-          
