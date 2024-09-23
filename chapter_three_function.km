@@ -1,0 +1,221 @@
+{
+    "root": {
+        "data": {
+            "id": "d4dp7hcr2ns0",
+            "created": 1727098177219,
+            "text": "第三章函数"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4dp7zqedrk0",
+                    "created": 1727098217226,
+                    "text": "函数",
+                    "note": "调用函数后会执行函数体中的代码，每次执行都会调用一次函数中的代码。\n当在函数括号中传递参数时，该函数称之为变元。\n函数中的变元值，以代码中调用函数括号中的值为准\n保存在变元中的值，在函数执行完成后就丢失了。\n在函数中的变元。不可以在代码后面进行调用，如果调用py会报错NameError",
+                    "layout_mind_offset": {
+                        "x": -25.99999922513973,
+                        "y": 5.684341886080802e-14
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dpn26wwp40",
+                            "created": 1727099398041,
+                            "text": "def",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 0,
+                                "y": -71.9999978542329
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4dpmf9zfz40",
+                                    "created": 1727099348161,
+                                    "text": "包含",
+                                    "layout_right_offset": {
+                                        "x": 11.999999642372131,
+                                        "y": -69.99999791383743
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4dpmimdx2w0",
+                                            "created": 1727099355441,
+                                            "text": "def"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4dpmkyj6vk0",
+                                            "created": 1727099360529,
+                                            "text": "函数名()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4dpmru7j1c0",
+                                            "created": 1727099375505,
+                                            "text": "冒号"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4dpmvrx4dc0",
+                                            "created": 1727099384074,
+                                            "text": "函数体"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4dpoyqtukw0",
+                            "created": 1727099547266,
+                            "text": "函数中传参/变元",
+                            "layout_right_offset": {
+                                "x": -2.999999910593033,
+                                "y": 9.999999701976662
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4dpp7h1rvs0",
+                                    "created": 1727099566266,
+                                    "text": "定义函数时可以在函数括号中输入需要传递的参数，在函数体中可以使用该函数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4dpv4hz9cw0",
+                            "created": 1727100029977,
+                            "text": "def Hello(a):\n\tprint(a)\n\tprint('hello')\nHello(\"我是\")\nHello(a)",
+                            "layout_right_offset": {
+                                "x": -24.999999254942168,
+                                "y": 81.99999755620956
+                            },
+                            "note": "函数的调用称之为将一个字符串。或者一个提前定义好的变量传递给该函数，函数的调用中传递给函数的值称之为参数，将 “我是”字符串传递给函数中的参数，称之为局部变量，接收参数的变量是变元"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4dpvsni2xs0",
+                                    "created": 1727100082554,
+                                    "text": "函数第一行。定义hello函数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4dpw6tjm200",
+                                    "created": 1727100113394,
+                                    "text": "第四行，调用第一行的函数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4dq5eq1rn40",
+                    "created": 1727100835874,
+                    "text": "函数返回值"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4dq5j3mgg80",
+                            "created": 1727100845402,
+                            "text": "返回值",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4dq5m2nou80",
+                                    "created": 1727100851874,
+                                    "text": "return"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4dq6pah1u00",
+                                            "created": 1727100937241,
+                                            "text": "包含"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4dq6sq66jk0",
+                                                    "created": 1727100944721,
+                                                    "text": "return关键字"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d4dq6w2yuag0",
+                                                    "created": 1727100952025,
+                                                    "text": "函数应该返回的值或表达式"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d4dqhoe3o3s0",
+                                    "created": 1727101797290,
+                                    "text": "当函数中使用流程控制语句",
+                                    "layout_left_offset": {
+                                        "x": 22.999999314546585,
+                                        "y": 54.999998360872326
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4dqi89usts0",
+                                            "created": 1727101840569,
+                                            "text": "流程控制语句中使用return可以作为该子句进行返回"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4dqj5yl8140",
+                                                    "created": 1727101913898,
+                                                    "text": "def getAnswerI(answerNumber):\n  if answerNumber == 1:\n  return 'It is certain'"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
