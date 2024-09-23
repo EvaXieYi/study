@@ -37,7 +37,7 @@ while True:
         print('You win！')
         wins = wins + 1
     elif playerMove == 'p' and computerMove == 'r':
-        print('You win!') 
+        print('You win!')
         wins = wins + 1
     elif playerMove == 's' and computerMove == 'p':
         print('You win!')
@@ -47,7 +47,7 @@ while True:
         losses = losses + 1
     elif playerMove == 'p' and computerMove == 's':
         print('You lose!')
-        losses = losses + 1     
+        losses = losses + 1
     elif playerMove == 's' and computerMove == 'r':
         print('You lose!')
         losses = losses + 1
