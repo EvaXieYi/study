@@ -212,6 +212,33 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d4g7mbelfnc0",
+                    "created": 1727353239624,
+                    "text": "None空值",
+                    "note": "当函数不需要任何返回值时，该函数的返回值是None\n列：\n   smpo = print(\"Hello\")\n   None  ==  smpo\n当函数不使用return语句定义其返回值时，定义的函数python会自动加上，return None。\n当return后不带任何参数或者值的时候，return本身返回None\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4g7mlxs18o0",
+                            "created": 1727353262552,
+                            "text": "首字母必须大写"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4g7p3hs1pc0",
+                                    "created": 1727353457495,
+                                    "text": "当函数作为打印输出时，函数的返回值将返回None空值"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },

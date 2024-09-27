@@ -8,4 +8,10 @@ Hello(a)
 def abc(name):
     
      return len(name)
-abc('aaaaaaaaaaaaaa')
+if abc('aaa') >= 4:
+     print("字符小")
+elif  abc('bbbb')<=3:
+     print("字符大")
+else :
+     print("不确定")
+
