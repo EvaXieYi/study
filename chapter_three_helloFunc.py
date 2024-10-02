@@ -8,6 +8,7 @@ Hello(a)
 def abc(name):
     
      return len(name)
+<<<<<<< HEAD
 if abc('aaa') >= 4:
      print("字符小")
 elif  abc('bbbb')<=3:
@@ -15,3 +16,6 @@ elif  abc('bbbb')<=3:
 else :
      print("不确定")
 
+=======
+abc('aaaaaaaaaaaaaa')
+>>>>>>> a4fee564ff4553ef5b8b6983382c24603f4a4971
