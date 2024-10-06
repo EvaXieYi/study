@@ -134,7 +134,11 @@
                 "data": {
                     "id": "d4dq5eq1rn40",
                     "created": 1727100835874,
-                    "text": "函数返回值"
+                    "text": "函数返回值",
+                    "layout_mind_offset": {
+                        "x": -15.999999523162842,
+                        "y": 83.99999749660515
+                    }
                 },
                 "children": [
                     {
@@ -212,7 +216,6 @@
                         ]
                     }
                 ]
-<<<<<<< HEAD
             },
             {
                 "data": {
@@ -240,12 +243,76 @@
                         ]
                     }
                 ]
-=======
->>>>>>> a4fee564ff4553ef5b8b6983382c24603f4a4971
+            },
+            {
+                "data": {
+                    "id": "d4oc2gjfbfc0",
+                    "created": 1728178268720,
+                    "text": "关键字参数",
+                    "layout_mind_offset": {
+                        "x": -9.999999701976776,
+                        "y": 193.99999421834968
+                    },
+                    "note": "大多数参数是由函数调用中的位置来识别的\n关键字参数是在函数调用时由他们前面的关键字来识别的,关键字参数通常是可选的变元"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4oc2kd1a8w0",
+                            "created": 1728178277040,
+                            "text": "print函数中关键字"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4oc3qib25c0",
+                                    "created": 1728178368784,
+                                    "text": "end"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4oc3upjzqo0",
+                                            "created": 1728178377929,
+                                            "text": "在print参数末尾输出什么"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4oc7hme1400",
+                                                    "created": 1728178662896,
+                                                    "text": "print(\"aaaaa\",'cccc',sep='-',end='     ')"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d4oc3vuffx40",
+                                    "created": 1728178380401,
+                                    "text": "sep"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4oc40hrufs0",
+                                            "created": 1728178390520,
+                                            "text": "参数之间输出什么间隔"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
     "template": "default",
-    "theme": "fresh-blue",
+    "theme": "classic",
     "version": "1.4.43"
 }
