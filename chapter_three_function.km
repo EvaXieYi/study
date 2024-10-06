@@ -3,7 +3,8 @@
         "data": {
             "id": "d4dp7hcr2ns0",
             "created": 1727098177219,
-            "text": "第三章函数"
+            "text": "第三章函数",
+            "note": "当函数被调用时，就创建了一个局部作用域，在这个函数内赋值的所有变量，都在该函数内使用。当函数返回时，该作用域的变量就失效了。\n全局作用域中的代码不能访问局部变量\n局部作用域可以访问全局作用域中的变量\n一个函数的局部作用域中的代码，不能使用其他局部作用域中的变量\n在不同的作用域中，你可以用相同的名字命名不同的变量。"
         },
         "children": [
             {
@@ -11,7 +12,7 @@
                     "id": "d4dp7zqedrk0",
                     "created": 1727098217226,
                     "text": "函数",
-                    "note": "调用函数后会执行函数体中的代码，每次执行都会调用一次函数中的代码。\n当在函数括号中传递参数时，该函数称之为变元。\n函数中的变元值，以代码中调用函数括号中的值为准\n保存在变元中的值，在函数执行完成后就丢失了。\n在函数中的变元。不可以在代码后面进行调用，如果调用py会报错NameError",
+                    "note": "调用函数后会执行函数体中的代码，每次执行都会调用一次函数中的代码。\n当在函数括号中传递参数时，该函数称之为变元。\n函数中的变元值，以代码中调用函数括号中的值为准\n保存在变元中的值，在函数执行完成后就丢失了。\n在函数中的变元。不可以在代码后面进行调用，如果调用py会报错NameError\n\n当调用函数引用时上层函数是一个帧。最开始调用函数的全局，返回为<modul>",
                     "layout_mind_offset": {
                         "x": -25.99999922513973,
                         "y": 5.684341886080802e-14
@@ -95,6 +96,117 @@
                                     "text": "定义函数时可以在函数括号中输入需要传递的参数，在函数体中可以使用该函数"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4oep74ucdk0",
+                                    "created": 1728185692842,
+                                    "text": "参数传递分为"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4oepb7t9600",
+                                            "created": 1728185701729,
+                                            "text": "位置参数"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4oepvbruvc0",
+                                                    "created": 1728185745504,
+                                                    "text": "定义函数直接传递参数值，该值需要对应函数的参数"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4oeph1519c0",
+                                            "created": 1728185714386,
+                                            "text": "关键字参数"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4oeq7n90m80",
+                                                    "created": 1728185772320,
+                                                    "text": "在调用函数时，带着变量名称传参，变量=\"值\""
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4oeqo71rns0",
+                                            "created": 1728185808345,
+                                            "text": "默认参数"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4oer25xegw0",
+                                                    "created": 1728185838752,
+                                                    "text": "在定义函数时，该函数以写好变量值，如果在传递时没有传递该值，那么就会使用函数写好的变量"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4oes3jcuig0",
+                                            "created": 1728185920105,
+                                            "text": "可变数量的位置参数"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4oes9rckq00",
+                                                    "created": 1728185933649,
+                                                    "text": "在函数创建的时候，函数中的参数前加*号，该参数被看作元组处理"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4oes8we50o0",
+                                            "created": 1728185931777,
+                                            "text": "可变数量的关键字参数"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4oethvt6zk0",
+                                                    "created": 1728186029698,
+                                                    "text": "在定义函数时，函数中的参数加**号，传递的关键字参数会被打包成一个字典"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d4oeub408io0",
+                                            "created": 1728186093320,
+                                            "text": "混合参数，位置参数和关键字参数的混合使用"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d4oeuleznq00",
+                                                    "created": 1728186115752,
+                                                    "text": "定义函数时，使用位置参数，关键字参数，可变关键字和位置参数，但是需要遵循特定的顺序"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -222,7 +334,11 @@
                     "id": "d4g7mbelfnc0",
                     "created": 1727353239624,
                     "text": "None空值",
-                    "note": "当函数不需要任何返回值时，该函数的返回值是None\n列：\n   smpo = print(\"Hello\")\n   None  ==  smpo\n当函数不使用return语句定义其返回值时，定义的函数python会自动加上，return None。\n当return后不带任何参数或者值的时候，return本身返回None\n"
+                    "note": "当函数不需要任何返回值时，该函数的返回值是None\n列：\n   smpo = print(\"Hello\")\n   None  ==  smpo\n当函数不使用return语句定义其返回值时，定义的函数python会自动加上，return None。\n当return后不带任何参数或者值的时候，return本身返回None\n",
+                    "layout_mind_offset": {
+                        "x": -52.49999765306711,
+                        "y": 152.49999318271892
+                    }
                 },
                 "children": [
                     {
@@ -250,8 +366,8 @@
                     "created": 1728178268720,
                     "text": "关键字参数",
                     "layout_mind_offset": {
-                        "x": -9.999999701976776,
-                        "y": 193.99999421834968
+                        "x": 17.499999068677425,
+                        "y": 231.4999925419691
                     },
                     "note": "大多数参数是由函数调用中的位置来识别的\n关键字参数是在函数调用时由他们前面的关键字来识别的,关键字参数通常是可选的变元"
                 },
@@ -301,6 +417,162 @@
                                             "id": "d4oc40hrufs0",
                                             "created": 1728178390520,
                                             "text": "参数之间输出什么间隔"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4ocqrxnpcg0",
+                    "created": 1728180174265,
+                    "text": "函数调用",
+                    "note": "调用栈，是python记住每个函数调用后在哪里返回执行的方式，调用栈不是存储在程序中的变量，而是由python在后台管理，当程序调用一个函数，python在调用栈的顶部创建一个帧对象，帧对象保存最初函数的行号。使得python记住返回的位置。如果调用了另外的函数，python会将另一个帧对象放在调用栈中，且在前一个帧对象之上。"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4ocqulaw1s0",
+                            "created": 1728180180048,
+                            "text": "函数内部引用其他函数"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4ocutsz0ao0",
+                                    "created": 1728180491792,
+                                    "text": "函数调用完毕返回",
+                                    "note": "当函数调用返回时，python从栈的顶部删除一个帧对象，并将执行转移至保存在其中的行号，帧对象始终是从顶部添加和删除的，而不是其他任意位置\n"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4odtomtgsg0",
+                    "created": 1728183223281,
+                    "text": "查询函数调用帧",
+                    "layout_mind_offset": {
+                        "x": -10.999999523162842,
+                        "y": 269.24998860433743
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4odtv73ua80",
+                            "created": 1728183237569,
+                            "text": "import  inspact"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4odu4irps80",
+                                    "created": 1728183257865,
+                                    "text": "inspact.stack()",
+                                    "note": "该函数可查询当前调用帧。返回当前帧信息\n\nframe (帧对象):\nfilename (文件名)\nlineno (行号)\nfunction (函数名)\ncode_context (代码上下文)\nindex (索引)\n\nimport inspect\n\ndef example_function():\n    a = inspect.stack()\n    \n    for frame_info in a:\n    #可以通过fram_info调用变量\n        print(frame_info)\n\nexample_function()"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4oe7nq39tc0",
+                            "created": 1728184318401,
+                            "text": "在异常抛出时打印堆信息"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4oe81sxx7k0",
+                                    "created": 1728184349048,
+                                    "text": "import traceback"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4oe88lp5rc0",
+                                            "created": 1728184363848,
+                                            "text": "traceback.print_exc()"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4oe9lhwl5k0",
+                    "created": 1728184470281,
+                    "text": "局部和全局作用域",
+                    "note": "将作用域看作一个容器。当容器被销毁时，所有保存在该容器内的局部变量被销毁。只有一个全局作用域，在程序开始时创建的。如果程序结束，该作用域被销毁。所有变量将被丢弃。\n局部变量不能在全局作用域中使用\n局部作用域不能使用其他作用域中的变量\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4oe9s7w8lk0",
+                            "created": 1728184484913,
+                            "text": "函数内赋值的变元和变量"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4oea2edng00",
+                                    "created": 1728184507073,
+                                    "text": "局部作用域/局部变量"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4oea5nr6ps0",
+                            "created": 1728184514170,
+                            "text": "在所有函数外赋值的变量"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4oeadcx7co0",
+                                    "created": 1728184530929,
+                                    "text": "全局作用域/全局变量"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d4oel4wxmig0",
+                            "created": 1728185374554,
+                            "text": "将局部变量改为全局变量",
+                            "note": "如果需要在一个函数内修改全局变量，就使用global语句\n区分局部还是全局\n如果变量在全局作用域中使用在所有函数外，他就是全局变量\n如果在一个函数中，有针对该变量的global他就是全局变量\n如果该变量用于函数中的赋值语句，他就是局部变量\n如果该变量没有用在赋值语句中，他就是全局变量\n函数中变量要么总是局部，要么总是全局，函数中代码没有办法先使用名为eggs的局部变量，稍后又在同一个函数中使用名为eggs的全局变量\n函数中在引用全局变量之后又定义局部变量，该变量就会报错"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4oeleap6io0",
+                                    "created": 1728185394977,
+                                    "text": "在局部变量前，带上globle"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d4oemltgl480",
+                                            "created": 1728185489713,
+                                            "text": "globle 变量名"
                                         },
                                         "children": []
                                     }
