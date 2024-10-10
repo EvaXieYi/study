@@ -22,10 +22,7 @@ def getAnswerI(answerNumber):
 #fortune = getAnswerI(r)
 #print(fortune)
 print(getAnswerI(random.randint(1,9)))
-<<<<<<< HEAD
 
 print(None)
-=======
 a=None
 print(a)
->>>>>>> a4fee564ff4553ef5b8b6983382c24603f4a4971
