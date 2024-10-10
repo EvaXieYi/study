@@ -101,7 +101,8 @@
                                 "data": {
                                     "id": "d4oep74ucdk0",
                                     "created": 1728185692842,
-                                    "text": "参数传递分为"
+                                    "text": "参数传递分为",
+                                    "note": "可变数量位置参数>位置参数>默认参数>可变数量的关键字参数"
                                 },
                                 "children": [
                                     {
@@ -115,7 +116,7 @@
                                                 "data": {
                                                     "id": "d4oepvbruvc0",
                                                     "created": 1728185745504,
-                                                    "text": "定义函数直接传递参数值，该值需要对应函数的参数"
+                                                    "text": "定义函数直接传递参数值，该值需要对应函数的参数，位置参数要在默认参数前"
                                                 },
                                                 "children": []
                                             }
@@ -577,6 +578,45 @@
                                         "children": []
                                     }
                                 ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4s5mljwivc0",
+                    "created": 1728566338973,
+                    "text": "异常处理",
+                    "layout_mind_offset": {
+                        "x": -134.99999396502983,
+                        "y": 251.00000290572643
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4s5n4ljk5c0",
+                            "created": 1728566380431,
+                            "text": "写法",
+                            "note": "def abc(number2,number1=14)\n    try:\n        return  number1 / number2\n     except ZeroDivisionError:\n           print(\"zerodivision\")\nprint(abc(number1=0,number2=14))\n程序调用函数try会捕捉其中异常"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d4s6gjfv2a00",
+                                    "created": 1728568685300,
+                                    "text": "如果try中存放的语句中存在异常，程序执行就转到except子句开始处"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d4s6jgfsftc0",
+                                    "created": 1728568913858,
+                                    "text": "try  except语句当python程序执行异常程序继续执行，不会终止该程序"
+                                },
+                                "children": []
                             }
                         ]
                     }
