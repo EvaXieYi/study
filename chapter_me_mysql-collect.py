@@ -17,6 +17,7 @@ def connect_to_mysql(**config):
             abc=cursor.fetchall()
             print(abc)
             #for (column1, column2) in abc:
+            #    print("{}, {}".format(column1, column2))
             cursor.close()
             conn.close()
     except Error as e:
