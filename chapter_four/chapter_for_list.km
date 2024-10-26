@@ -454,9 +454,10 @@
                     "created": 1729429615906,
                     "text": "计算列表长度",
                     "layout_mind_offset": {
-                        "x": 825.9999753832824,
-                        "y": 747.9999811649327
-                    }
+                        "x": -1103.999938338998,
+                        "y": 258.0000030696385
+                    },
+                    "note": "len函数判断列中有多少个值。\n当没有往列中添加值的时候返回的值为0"
                 },
                 "children": [
                     {
@@ -491,7 +492,7 @@
                     "id": "d50no713slc0",
                     "created": 1729429723721,
                     "text": "列表操作",
-                    "note": "使用列表索引进行改变列表的值，将值重新赋值。\n删除一个列表中的值，在调用列表索引前加del,del语句将删除列表中索引处的值，列表中被删除值后面的值都将向前挪动一个。\n当使用del删除值后视图使用该变量，就会遇到NameError错误，因为该变量不存在。"
+                    "note": "使用列表索引进行改变列表的值，将值重新赋值。\n删除一个列表中的值，在调用列表索引前加del,del语句将删除列表中索引处的值，列表中被删除值后面的值都将向前挪动一个。\n当使用del删除值后视图使用该变量，就会遇到NameError错误，因为该变量不存在。\n在列表中如果使用列表添加值，循环的内容存放的列表中可以使用\n列表名=列表名+[字段]"
                 },
                 "children": [
                     {
@@ -607,6 +608,131 @@
                                         "children": []
                                     }
                                 ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d55pubtbki00",
+                            "created": 1729943646323,
+                            "text": "便利列表添加值",
+                            "layout_left_offset": {
+                                "x": -53.999998390674705,
+                                "y": 171.99999487400072
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d55puxuor880",
+                                    "created": 1729943694295,
+                                    "text": "写法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d55pv1797ts0",
+                                            "created": 1729943701585,
+                                            "text": "catName=catName+[name]"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d55ptva1vg00",
+                    "created": 1729943610329,
+                    "text": "列表用于流程语句",
+                    "layout_mind_offset": {
+                        "x": -186.24999465420876,
+                        "y": 216.4999948516492
+                    },
+                    "note": "从技术上讲，循环是针对一个表或列表中的每个值，重复的执行\nfor i in [0,1,2,3]:\n    print(i)\nin和not in确定一个值是否在列表中，象其他操作符一样，in和not in在表达式中用于连接两个值，一个是要在列表中查找的值，另一个是待查找的列表，表达式求值为布尔值。"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d55qn9517so0",
+                            "created": 1729945913061,
+                            "text": "循环中",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d55px4ixsw00",
+                                    "created": 1729943865550,
+                                    "text": "写法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d55q1jwm0a00",
+                                            "created": 1729944212485,
+                                            "text": "for i in [0,1,2,3]:"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d55q1pdk9480",
+                                            "created": 1729944224394,
+                                            "text": "for i in range(4)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d55qd0sruog0",
+                                            "created": 1729945111264,
+                                            "text": "迭代列表中所有索引，无论包含多少表项"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d55qdeal1nc0",
+                                                    "created": 1729945140639,
+                                                    "text": "range(len(列表名))"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d55qncrvppc0",
+                            "created": 1729945920973,
+                            "text": "列表的in和not in",
+                            "layout_left_offset": {
+                                "x": -3.7499998323620503,
+                                "y": 29.999998658895493
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d55qo1c66nk0",
+                                    "created": 1729945974443,
+                                    "text": "in为判断值在列表中是否存在"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d55qob9eirc0",
+                                    "created": 1729945996043,
+                                    "text": "not in如果判断的值存在为false/取反"
+                                },
+                                "children": []
                             }
                         ]
                     }
