@@ -16,6 +16,7 @@ else:
 
 matrix = [[i * j for j in range(3)] for i in range(3)]  
 matrix = [[i * j for j in range(3)] for i in range(3)]
+         [[i * j for i in range(3)] for i in range(3)]
 print(matrix) '''
 matrix = []  # 初始化空列表
 for i in range(3):
@@ -26,3 +27,11 @@ for i in range(3):
 
 print(matrix)
 
+
+name=[1,2,3]
+a,b,c=name
+print(a,b)
+
+
+for x,y in enumerate(name):
+    print(x,y)

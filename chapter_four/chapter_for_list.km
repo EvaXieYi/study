@@ -492,7 +492,11 @@
                     "id": "d50no713slc0",
                     "created": 1729429723721,
                     "text": "列表操作",
-                    "note": "使用列表索引进行改变列表的值，将值重新赋值。\n删除一个列表中的值，在调用列表索引前加del,del语句将删除列表中索引处的值，列表中被删除值后面的值都将向前挪动一个。\n当使用del删除值后视图使用该变量，就会遇到NameError错误，因为该变量不存在。\n在列表中如果使用列表添加值，循环的内容存放的列表中可以使用\n列表名=列表名+[字段]"
+                    "note": "使用列表索引进行改变列表的值，将值重新赋值。\n删除一个列表中的值，在调用列表索引前加del,del语句将删除列表中索引处的值，列表中被删除值后面的值都将向前挪动一个。\n当使用del删除值后视图使用该变量，就会遇到NameError错误，因为该变量不存在。\n在列表中如果使用列表添加值，循环的内容存放的列表中可以使用\n列表名=列表名+[字段]\n在python列表中列表的多重赋值是将列表中的元素赋值给对应的变量名",
+                    "layout_mind_offset": {
+                        "x": -29.99999865889538,
+                        "y": -96.24999569728988
+                    }
                 },
                 "children": [
                     {
@@ -640,6 +644,40 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "d56lipjy2x40",
+                            "created": 1730033011378,
+                            "text": "多重赋值技巧",
+                            "layout_left_offset": {
+                                "x": -77.49999653548002,
+                                "y": 242.49998915940552
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d56liv6gm3c0",
+                                    "created": 1730033023623,
+                                    "text": "写法",
+                                    "layout_left_offset": {
+                                        "x": -18.749999161809683,
+                                        "y": -1.2499999441206455
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d56lixliwag0",
+                                            "created": 1730033028888,
+                                            "text": "d[1,2,3]\na,b,c=a"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -731,6 +769,88 @@
                                     "id": "d55qob9eirc0",
                                     "created": 1729945996043,
                                     "text": "not in如果判断的值存在为false/取反"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d56lwhh84t40",
+                            "created": 1730034090897,
+                            "text": "enumerate",
+                            "layout_left_offset": {
+                                "x": -1.2499999441205318,
+                                "y": 42.49999810010195
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d56lwmvq90g0",
+                                    "created": 1730034102658,
+                                    "text": "取列表中的索引以及值"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d56lwuaywpc0",
+                                            "created": 1730034118817,
+                                            "text": "写法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d56lwxu20000",
+                                                    "created": 1730034126502,
+                                                    "text": "for x,y in enumerate(name):"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d56ldvttaww0",
+                    "created": 1730032633214,
+                    "text": "列表解析的用法",
+                    "layout_mind_offset": {
+                        "x": 77.99999767541902,
+                        "y": 553.9999966025354
+                    },
+                    "note": "列表解析是python中简介强大创建列表的方法，可以使用更少的代码生成新的列表\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d56le1o2bog0",
+                            "created": 1730032645928,
+                            "text": "写法",
+                            "layout_left_offset": {
+                                "x": -2.9999999105930897,
+                                "y": -12.999999612569809
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d56lf2aevyg0",
+                                    "created": 1730032725643,
+                                    "text": "[print(i) for i in range(5)]"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d56lfbdsayo0",
+                                    "created": 1730032745438,
+                                    "text": "[[i*jfor i in range(i)]for i in range(j)]"
                                 },
                                 "children": []
                             }
