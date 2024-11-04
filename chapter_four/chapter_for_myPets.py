@@ -35,3 +35,35 @@ print(a,b)
 
 for x,y in enumerate(name):
     print(x,y)
+
+import random
+pets=['Dog','Cat','Moose']
+print(random.choice(pets))
+#random.choice(pets)==pets[random.randint(0,len(pets)-1)]
+
+print(pets[random.randint(0,len(pets)-1)])
+random.shuffle(pets)
+print(pets)
+a=random.shuffle(pets)
+print(a)
+
+a=1
+a+=1
+a/=1
+a-=1
+a*=1
+a**=1
+a%=1
+
+a="aaaaa"
+b=["1","2","3"]
+b+=[a]
+a*=3
+
+print(b)
+
+print(b.index("1"))
+
+b.insert(1,"aaaa")
+b.append(a)
+print(b)

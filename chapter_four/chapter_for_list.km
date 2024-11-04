@@ -454,8 +454,8 @@
                     "created": 1729429615906,
                     "text": "计算列表长度",
                     "layout_mind_offset": {
-                        "x": -1103.999938338998,
-                        "y": 258.0000030696385
+                        "x": -1221.9999348223237,
+                        "y": 196.00000491738234
                     },
                     "note": "len函数判断列中有多少个值。\n当没有往列中添加值的时候返回的值为0"
                 },
@@ -467,6 +467,10 @@
                             "text": "使用len函数可以计算列表的长度",
                             "layout_right_offset": {
                                 "x": 163.9999951124197,
+                                "y": 1.9999999403953552
+                            },
+                            "layout_left_offset": {
+                                "x": -75.99999773502361,
                                 "y": 1.9999999403953552
                             }
                         },
@@ -494,8 +498,8 @@
                     "text": "列表操作",
                     "note": "使用列表索引进行改变列表的值，将值重新赋值。\n删除一个列表中的值，在调用列表索引前加del,del语句将删除列表中索引处的值，列表中被删除值后面的值都将向前挪动一个。\n当使用del删除值后视图使用该变量，就会遇到NameError错误，因为该变量不存在。\n在列表中如果使用列表添加值，循环的内容存放的列表中可以使用\n列表名=列表名+[字段]\n在python列表中列表的多重赋值是将列表中的元素赋值给对应的变量名",
                     "layout_mind_offset": {
-                        "x": -29.99999865889538,
-                        "y": -96.24999569728988
+                        "x": -61.33334086007528,
+                        "y": 303.74997608984626
                     }
                 },
                 "children": [
@@ -598,18 +602,54 @@
                         "children": [
                             {
                                 "data": {
-                                    "id": "d50oao2kbdk0",
-                                    "created": 1729431484827,
-                                    "text": "写法"
+                                    "id": "d5dgtexoraw0",
+                                    "created": 1730730664417,
+                                    "text": "不知道索引"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "d50oapz4tew0",
-                                            "created": 1729431488973,
-                                            "text": "del a[1]"
+                                            "id": "d5dgtntht2g0",
+                                            "created": 1730730683755,
+                                            "text": "写法"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5dgtru8ruw0",
+                                                    "created": 1730730692507,
+                                                    "text": "a.remove(\"aaa\")"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5dgtfzq7zk0",
+                                    "created": 1730730666717,
+                                    "text": "知道索引",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d50oao2kbdk0",
+                                            "created": 1729431484827,
+                                            "text": "写法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d50oapz4tew0",
+                                                    "created": 1729431488973,
+                                                    "text": "del a[1]"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -678,6 +718,152 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5dgcamww080",
+                            "created": 1730729322868,
+                            "text": "查询值在列表中的下标",
+                            "layout_right_offset": {
+                                "x": 8.333333573406549,
+                                "y": 28.416665101631224
+                            },
+                            "note": "当值在列表中有重复时，返回第一次出现的索引。\n"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5dgck712ag0",
+                                    "created": 1730729343675,
+                                    "text": "写法",
+                                    "layout_right_offset": {
+                                        "x": 0,
+                                        "y": 1.999999940395469
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5dgcmgd0lc0",
+                                            "created": 1730729348593,
+                                            "text": "a.index(1)",
+                                            "layout_right_offset": {
+                                                "x": 0,
+                                                "y": 1.1368683772161603e-13
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5dgh8s6kjs0",
+                                                    "created": 1730729710654,
+                                                    "text": "当值存在时返回下标"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5dghhqvdpc0",
+                                                    "created": 1730729730165,
+                                                    "text": "值不存在时会返回ValueError"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5dgkaptev40",
+                            "created": 1730729949957,
+                            "text": "在列表中追加值",
+                            "layout_right_offset": {
+                                "x": 13.999999582767487,
+                                "y": 41.99999874830257
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5dgp6l263c0",
+                                    "created": 1730730332783,
+                                    "text": "写法",
+                                    "layout_right_offset": {
+                                        "x": 43.999998688697815,
+                                        "y": -3.9999998807905968
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5dgp8gqkag0",
+                                            "created": 1730730336875,
+                                            "text": "a.append(\"aaa\")"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5dgplk7tvk0",
+                                                    "created": 1730730365384,
+                                                    "text": "在列表末尾追加"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5dgpsz3y280",
+                            "created": 1730730381521,
+                            "text": "在某个索引处添加值",
+                            "layout_right_offset": {
+                                "x": 15.999999523162842,
+                                "y": 79.99999761581421
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5dgq3knw4g0",
+                                    "created": 1730730404593,
+                                    "text": "写法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5dgq61f07c0",
+                                            "created": 1730730409959,
+                                            "text": "a.insert(1,\"aaa\")"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5dgqb0n5680",
+                                                    "created": 1730730420796,
+                                                    "text": "在列表中添加值，原有值，会向后移动"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5dgsbxkeh40",
+                                    "created": 1730730579515,
+                                    "text": "当使用其他字符串或者其他值时，返回AttributeError值"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },
@@ -687,8 +873,8 @@
                     "created": 1729943610329,
                     "text": "列表用于流程语句",
                     "layout_mind_offset": {
-                        "x": -186.24999465420876,
-                        "y": 216.4999948516492
+                        "x": -202.2499941773716,
+                        "y": 224.49999461323063
                     },
                     "note": "从技术上讲，循环是针对一个表或列表中的每个值，重复的执行\nfor i in [0,1,2,3]:\n    print(i)\nin和not in确定一个值是否在列表中，象其他操作符一样，in和not in在表达式中用于连接两个值，一个是要在列表中查找的值，另一个是待查找的列表，表达式求值为布尔值。"
                 },
@@ -698,7 +884,11 @@
                             "id": "d55qn9517so0",
                             "created": 1729945913061,
                             "text": "循环中",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout_left_offset": {
+                                "x": -21.999999344348907,
+                                "y": -29.999999105930385
+                            }
                         },
                         "children": [
                             {
@@ -751,8 +941,8 @@
                             "created": 1729945920973,
                             "text": "列表的in和not in",
                             "layout_left_offset": {
-                                "x": -3.7499998323620503,
-                                "y": 29.999998658895493
+                                "x": -37.74999881908309,
+                                "y": -31.99999949336052
                             }
                         },
                         "children": [
@@ -780,8 +970,8 @@
                             "created": 1730034090897,
                             "text": "enumerate",
                             "layout_left_offset": {
-                                "x": -1.2499999441205318,
-                                "y": 42.49999810010195
+                                "x": -11.249999646097308,
+                                "y": 10.499999053776264
                             }
                         },
                         "children": [
@@ -812,6 +1002,54 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5df9wdxj540",
+                            "created": 1730726314011,
+                            "text": "random接收列表参数的函数",
+                            "layout_left_offset": {
+                                "x": -15.99999952316307,
+                                "y": 59.999998211861
+                            },
+                            "note": "random.choice(pets)==pets[random.randint(0,len(pets)-1)]\n以上choice是random.randint的子形式\n"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5dfb6l3xwo0",
+                                    "created": 1730726414577,
+                                    "text": "random.choice()"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5dfg9yc8yg0",
+                                            "created": 1730726813729,
+                                            "text": "列表随机返回的表项"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5dfgjs8yz40",
+                                    "created": 1730726835128,
+                                    "text": "random.shuffle()"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5dfgpwr92w0",
+                                            "created": 1730726848461,
+                                            "text": "函数将列表修改，不是返回新的列表"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -821,8 +1059,8 @@
                     "created": 1730032633214,
                     "text": "列表解析的用法",
                     "layout_mind_offset": {
-                        "x": 77.99999767541902,
-                        "y": 553.9999966025354
+                        "x": -373.9999888539316,
+                        "y": 637.9999940991406
                     },
                     "note": "列表解析是python中简介强大创建列表的方法，可以使用更少的代码生成新的列表\n"
                 },
@@ -851,6 +1089,130 @@
                                     "id": "d56lfbdsayo0",
                                     "created": 1730032745438,
                                     "text": "[[i*jfor i in range(i)]for i in range(j)]"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5dfr2tomwo0",
+                    "created": 1730727660215,
+                    "text": "增强赋值操作",
+                    "layout_mind_offset": {
+                        "x": -66.66666203075033,
+                        "y": -682.4999535953029
+                    },
+                    "note": "增强赋值就是需要引用变量加数字的形式更简单化，\n其中+=可以用于字符串拼接，*=可以完成字符串和列表的复制\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5dfsroq5eo0",
+                            "created": 1730727792699,
+                            "text": "a+=1"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5dfum9u59s0",
+                                    "created": 1730727937644,
+                                    "text": "a=a+1"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5dfwnxa5ls0",
+                                    "created": 1730728097966,
+                                    "text": "a+=\"和\""
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5dfwsfco340",
+                                            "created": 1730728107767,
+                                            "text": "字符串拼接"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5dfsxzksfc0",
+                            "created": 1730727806416,
+                            "text": "a/=1"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5dfup16a8g0",
+                                    "created": 1730727943650,
+                                    "text": "a=a/1"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5dfsyytv3k0",
+                            "created": 1730727808548,
+                            "text": "a-=1"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5dfurf3xa80",
+                                    "created": 1730727948846,
+                                    "text": "a=a-1"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5dfszy3t5s0",
+                            "created": 1730727810681,
+                            "text": "a*=1"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5dfutlyk200",
+                                    "created": 1730727953614,
+                                    "text": "a=a*1"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5dfwvzneuo0",
+                                    "created": 1730728115524,
+                                    "text": "a*=[]"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5dft0x6xa80",
+                            "created": 1730727812802,
+                            "text": "a%=1"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5dfux6xj1c0",
+                                    "created": 1730727961412,
+                                    "text": "a=a%1"
                                 },
                                 "children": []
                             }
