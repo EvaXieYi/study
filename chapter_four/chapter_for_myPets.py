@@ -54,7 +54,8 @@ a-=1
 a*=1
 a**=1
 a%=1
-
+import aext-assistant
+aext-assistant.
 a="aaaaa"
 b=["1","2","3"]
 b+=[a]
