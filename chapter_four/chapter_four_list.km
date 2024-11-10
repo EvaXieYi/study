@@ -496,7 +496,7 @@
                     "id": "d50no713slc0",
                     "created": 1729429723721,
                     "text": "列表操作",
-                    "note": "使用列表索引进行改变列表的值，将值重新赋值。\n删除一个列表中的值，在调用列表索引前加del,del语句将删除列表中索引处的值，列表中被删除值后面的值都将向前挪动一个。\n当使用del删除值后视图使用该变量，就会遇到NameError错误，因为该变量不存在。\n在列表中如果使用列表添加值，循环的内容存放的列表中可以使用\n列表名=列表名+[字段]\n在python列表中列表的多重赋值是将列表中的元素赋值给对应的变量名",
+                    "note": "使用列表索引进行改变列表的值，将值重新赋值。\n删除一个列表中的值，在调用列表索引前加del,del语句将删除列表中索引处的值，列表中被删除值后面的值都将向前挪动一个。\n当使用del删除值后视图使用该变量，就会遇到NameError错误，因为该变量不存在。\n在使用remove删除列表中值时，当该值存在于列表多此，删除列表索引最小的值，当删除的值在列表中不存在时候，会报错，ValueErro\n在列表中如果使用列表添加值，循环的内容存放的列表中可以使用\n列表名=列表名+[字段]\n在python列表中列表的多重赋值是将列表中的元素赋值给对应的变量名\n排序方式不能使用变量进行赋值，只需要列表名.sort直接将原来的列表进行排序，列表排序，当列表中既有数字又有字符串时，不能进行排序，python会报错,TypeError。\nsort方法对字符串排序时，使用ascii字符顺序，而不是实际的字典顺序，意味着，大写字母排在小写字母之前，意味着，所有的启示字母。大写字母统一在小写字母之前。\n当需要让sort排序按照字典顺序的排序方式时，需要使用sort(key=str.lower)",
                     "layout_mind_offset": {
                         "x": -61.33334086007528,
                         "y": 303.74997608984626
@@ -824,8 +824,8 @@
                             "created": 1730730381521,
                             "text": "在某个索引处添加值",
                             "layout_right_offset": {
-                                "x": 15.999999523162842,
-                                "y": 79.99999761581421
+                                "x": 13.999999582767487,
+                                "y": 71.99999785423279
                             }
                         },
                         "children": [
@@ -862,6 +862,140 @@
                                     "text": "当使用其他字符串或者其他值时，返回AttributeError值"
                                 },
                                 "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5idy01r6zk0",
+                            "created": 1731230360286,
+                            "text": " ",
+                            "layout_right_offset": {
+                                "x": 15.999999523162842,
+                                "y": 115.99999654293015
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5idyzypjls0",
+                                    "created": 1731230438466,
+                                    "text": "正序排序列表，包含数字或者字符串的列表",
+                                    "layout_right_offset": {
+                                        "x": -9.999999701976321,
+                                        "y": 1.9999999403953552
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ied4c58hs0",
+                                            "created": 1731231545084,
+                                            "text": "写法",
+                                            "layout_right_offset": {
+                                                "x": -1.9999999403951279,
+                                                "y": -27.999999165534973
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ied8f1qko0",
+                                                    "created": 1731231553966,
+                                                    "text": "a.sort()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5iedf61zfc0",
+                                            "created": 1731231568660,
+                                            "text": "倒叙排序",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5iefp96obk0",
+                                                    "created": 1731231747345,
+                                                    "text": "写法"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5iefsw9vqo0",
+                                                            "created": 1731231755272,
+                                                            "text": "a.sort(reverse=True)"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ierkvukm80",
+                                            "created": 1731232678202,
+                                            "text": "sort默认是按照ascii字符顺序排序，所有大写字母在前，小写字母在后，如果按照正常字母顺序排序需要在sort函数中引用key,引用了key时sort将所有字母改成小写。",
+                                            "layout_right_offset": {
+                                                "x": 5.999999821186066,
+                                                "y": 49.99999850988388
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ieulgp5e80",
+                                                    "created": 1731232914555,
+                                                    "text": "写法"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ieuq4gmdc0",
+                                                            "created": 1731232924699,
+                                                            "text": "sort(key=str.lower)"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5if4syekvk0",
+                            "created": 1731233714505,
+                            "text": "倒叙排序",
+                            "layout_right_offset": {
+                                "x": 17.999999463558083,
+                                "y": 191.99999427795433
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5if4xsjcm80",
+                                    "created": 1731233725034,
+                                    "text": "写法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5if555bzkg0",
+                                            "created": 1731233741045,
+                                            "text": "a.reverse()"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -1213,6 +1347,104 @@
                                     "id": "d5dfux6xj1c0",
                                     "created": 1730727961412,
                                     "text": "a=a%1"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5igubcvduw0",
+                    "created": 1731238534776,
+                    "text": "单个字符串操作",
+                    "layout_mind_offset": {
+                        "x": -238.74998932704358,
+                        "y": 408.74999245628726
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5igukggry00",
+                            "created": 1731238554584,
+                            "text": "name[0]"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5igv14whu00",
+                                    "created": 1731238590890,
+                                    "text": "把字符串比作列表"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5igul18a5c0",
+                            "created": 1731238555840,
+                            "text": "in name"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5igv5h2zvs0",
+                                    "created": 1731238600334,
+                                    "text": "查询字符是否存在于变量"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5igulzxuz40",
+                            "created": 1731238557938,
+                            "text": "not in name"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5igv9fm1bs0",
+                                    "created": 1731238608952,
+                                    "text": "如果不存在是True"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5igumlmzlk0",
+                            "created": 1731238559250,
+                            "text": "for i in name"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5igveeclxk0",
+                                    "created": 1731238619760,
+                                    "text": "循环遍历字符串"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5igvj6zink0",
+                            "created": 1731238630198,
+                            "text": "name[0:4]"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5igvnl6tyo0",
+                                    "created": 1731238639764,
+                                    "text": "字符串切片"
                                 },
                                 "children": []
                             }

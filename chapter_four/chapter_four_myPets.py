@@ -54,8 +54,7 @@ a-=1
 a*=1
 a**=1
 a%=1
-import aext-assistant
-aext-assistant.
+
 a="aaaaa"
 b=["1","2","3"]
 b+=[a]
@@ -68,3 +67,10 @@ print(b.index("1"))
 b.insert(1,"aaaa")
 b.append(a)
 print(b)
+
+b.sort(key=str.lower)
+# 续行字符，对一行中比较长的代码。进行换行处理，在续行字符之后一行，缩进不重要
+c=[1,2,3,"string","float","int","False", \
+     "True"]
+c.reverse()
+print(c)
