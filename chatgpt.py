@@ -1,7 +1,7 @@
 import openai
 
 # 设置 API 密钥
-openai.api_key = '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'  # 替换为你自己的 API 密钥
+openai.api_key = ''  # 替换为你自己的 API 密钥
 
 def chat_with_gpt3_5(prompt):
     try:
