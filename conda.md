@@ -9,3 +9,5 @@ conda update  环境名，更新环境
 conda list    列出环境
 conda info 
 conda config --show
+
+
